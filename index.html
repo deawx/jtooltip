@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>jTooltip</title>
+
+	<link type="text/css" rel="stylesheet" href="css/jquery.tooltip.css" />
+	
+	<script type="text/javascript" src="scripts/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui-1.8.23.custom.js"></script>
+	<script type="text/javascript" src="scripts/jquery.tooltip.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#goto").tooltip({
+				text: "Click me! This web site is fantastic!",
+				bgColor: "blackGloss",
+                width: "200px"
+			});
+		});
+	</script>
+</head>
+<body>
+	<p>
+		Visit <a href="http://www.codecademy.com" id="goto" target="blank">codeacademy</a> 
+		if you want to learn a new programming language!
+	</p>
+</body>
+</html>
